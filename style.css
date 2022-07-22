@@ -12,7 +12,8 @@ img{
   }
 
 .stretch {
-    background: url("sunset.jpg") no-repeat center center fixed;
+    background-image: url("sunset.jpg");
+    background: no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
