@@ -48,7 +48,8 @@ img{
     padding-right: 30px;
     padding-bottom: 30px;
     padding-left: 30px;
-    min-width: 100%;
+    /* min-width: 100%; */
+    display:inline-block;
     justify-content: space-around;
     display: flex;
     /* justify-content: center; */
