@@ -11,8 +11,7 @@ export default function Projects() {
         ))}
       </div>
       <p className="more">
-        More on <a href="https://github.com/kennethjsmith">GitHub</a> and{' '}
-        <a href="https://portfolium.com/kenjamessmith">Portfolium</a>.
+        More on <a href="https://github.com/kennethjsmith">GitHub</a>.
       </p>
     </section>
   )

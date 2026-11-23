@@ -7,8 +7,8 @@ export default function Nav() {
       <nav className="nav__links" aria-label="Sections">
         <a href="#about">About</a>
         <a href="#projects">Projects</a>
-        <a href="/assets/SmithK_Resume.pdf" target="_blank" rel="noopener">
-          Resume
+        <a href="https://www.linkedin.com/in/kenjamessmith/" target="_blank" rel="noopener">
+          LinkedIn
         </a>
       </nav>
     </header>

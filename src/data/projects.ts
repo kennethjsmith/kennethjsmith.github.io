@@ -20,16 +20,4 @@ export const projects: Project[] = [
     cta: 'Play it →',
     icon: '/assets/goop.gif',
   },
-  {
-    title: 'PKMN DB',
-    description:
-      'A registry site for hobbyists, built on a MySQL schema I designed. It ran on Node and Express on Heroku, with the database on Azure.',
-    tags: ['Node.js', 'Express', 'MySQL', 'Azure'],
-  },
-  {
-    title: 'User Profiling with Social Media Data',
-    description:
-      'An ensemble deep-learning model that combined image, text and relational signals to classify users, reaching 88% accuracy.',
-    tags: ['Python', 'TensorFlow', 'Keras'],
-  },
 ]
