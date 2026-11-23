@@ -75,7 +75,7 @@ h1, h2, h3 { line-height: 1.15; margin: 0; }
 	color: #fff;
 	background:
 		linear-gradient(180deg, rgb(20 10 30 / .55), rgb(20 10 30 / .35) 50%, var(--bg) 100%),
-		url("assets/sunset.jpg") center / cover no-repeat;
+		url("/assets/sunset.jpg") center / cover no-repeat;
 }
 .hero__inner {
 	display: flex;
