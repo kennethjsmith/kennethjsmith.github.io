@@ -5,9 +5,11 @@ export default function About() {
       <div className="about">
         <div className="about__text">
           <p>
-            I'm a software engineer at Veeva Systems, based in Los Angeles. I studied Computer
-            Science &amp; Systems at the University of Washington Tacoma, graduating summa cum laude
-            in 2022 with a minor in mathematics.
+            I live in Los Angeles and work remotely as a software engineer at Veeva Systems.
+          </p>
+          <p>
+            My degree is in Computer Science &amp; Systems from the University of Washington Tacoma,
+            where I graduated summa cum laude in 2022 with a minor in mathematics.
           </p>
           <p>
             Away from the keyboard you'll find me scuba diving. Here are some manta rays I met on a
