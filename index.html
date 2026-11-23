@@ -1,96 +1,123 @@
-<!DOCTYPE HTML>
-<html>
-	<head>
-		<title>Ken Smith</title>
-		<meta charset="utf-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=1">
-		<link rel="stylesheet" href="style.css">
-		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-		<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css">
-		<link rel="shortcut icon" href="assets/ks_logo.ico" />
-	</head>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Ken Smith · Software Engineer</title>
+	<meta name="description" content="Ken Smith, software engineer in Los Angeles.">
+	<meta name="theme-color" content="#1a1220">
 
-	<body class="d-flex flex-column min-vh-100 stretch">
+	<meta property="og:type" content="website">
+	<meta property="og:title" content="Ken Smith · Software Engineer">
+	<meta property="og:description" content="Software engineer in Los Angeles.">
+	<meta property="og:url" content="https://kennethjsmith.github.io/">
+	<meta property="og:image" content="https://kennethjsmith.github.io/assets/headshot.jpg">
 
-		<!-- Header -->
-		<header>
-			<nav class="navbar navbar-expand-lg navbar-light bg-light">	
-				<div class="navbar-nav left-links">
-					<a class="nav-item nav-link active" style="font-family:kouryuu" href="https://kennethjsmith.github.io/">KS</a>
-					<a class="nav-item nav-link" href="https://kennethjsmith.github.io/about">About</a>
-					<a class="nav-item nav-link" href="https://kennethjsmith.github.io/projects">Projects</a>
-					<a class="nav-item nav-link" href="https://kennethjsmith.github.io/resume">Resume</a>
-				</div>
+	<link rel="icon" href="assets/ks_logo.ico">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap">
+	<link rel="stylesheet" href="style.css">
+</head>
+<body>
 
-				<div class="right-links">
-					<ul class="list-inline">
-						<li class="list-inline-item">
-							<a href="https://kennethjsmith.github.io/ikebana/">
-								<img src="assets/goop.gif" title="Play!" width="60" height="60">
+	<header class="nav">
+		<a class="nav__logo" href="#top" aria-label="Home">KS</a>
+		<nav class="nav__links" aria-label="Sections">
+			<a href="#about">About</a>
+			<a href="#projects">Projects</a>
+			<a href="assets/SmithK_Resume.pdf" target="_blank" rel="noopener">Resume</a>
+		</nav>
+	</header>
+
+	<main id="top">
+
+		<!-- Hero -->
+		<section class="hero">
+			<div class="hero__inner">
+				<img class="hero__photo" src="assets/headshot.jpg" alt="Ken Smith" width="640" height="640">
+				<div>
+					<p class="eyebrow">Hi, I'm</p>
+					<h1>Ken Smith</h1>
+					<p class="hero__tagline">Software engineer based in Los Angeles.</p>
+					<ul class="socials">
+						<li>
+							<a href="https://github.com/kennethjsmith" aria-label="GitHub" title="GitHub">
+								<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 .5a11.5 11.5 0 0 0-3.64 22.41c.58.1.79-.25.79-.56v-2c-3.2.7-3.88-1.37-3.88-1.37-.52-1.33-1.28-1.69-1.28-1.69-1.05-.71.08-.7.08-.7 1.16.08 1.77 1.2 1.77 1.2 1.03 1.77 2.71 1.26 3.37.96.1-.75.4-1.26.73-1.55-2.55-.29-5.24-1.28-5.24-5.69 0-1.26.45-2.29 1.19-3.1-.12-.29-.52-1.46.11-3.05 0 0 .97-.31 3.17 1.18a11 11 0 0 1 5.77 0c2.2-1.49 3.17-1.18 3.17-1.18.63 1.59.23 2.76.11 3.05.74.81 1.19 1.84 1.19 3.1 0 4.42-2.69 5.39-5.26 5.68.41.36.78 1.06.78 2.14v3.17c0 .31.21.67.8.56A11.5 11.5 0 0 0 12 .5Z"/></svg>
 							</a>
 						</li>
-
-						<li class="list-inline-item">
-							<a href="https://portfolium.com/kenjamessmith">
-								<img src="assets/portfolium.png" title="Portfolium" width="60" height="60">
+						<li>
+							<a href="https://www.linkedin.com/in/kenjamessmith/" aria-label="LinkedIn" title="LinkedIn">
+								<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20.45 20.45h-3.56v-5.57c0-1.33-.02-3.04-1.85-3.04-1.85 0-2.14 1.45-2.14 2.94v5.67H9.35V9h3.41v1.56h.05c.48-.9 1.64-1.85 3.37-1.85 3.6 0 4.27 2.37 4.27 5.46v6.28ZM5.34 7.43a2.06 2.06 0 1 1 0-4.13 2.06 2.06 0 0 1 0 4.13ZM7.12 20.45H3.56V9h3.56v11.45ZM22.22 0H1.77C.79 0 0 .77 0 1.73v20.54C0 23.23.79 24 1.77 24h20.45c.98 0 1.78-.77 1.78-1.73V1.73C24 .77 23.2 0 22.22 0Z"/></svg>
 							</a>
 						</li>
-
-						<li class="list-inline-item">
-							<a href="https://github.com/kennethjsmith">
-								<span class="fa-stack fa-2x" title="GitHub" >
-									<i class="fa fa-circle fa-stack-2x"></i>
-									<i class="fa fa-github fa-stack-1x fa-inverse"></i>
-								</span>
+						<li>
+							<a href="mailto:kensmith.py@gmail.com" aria-label="Email" title="Email">
+								<svg viewBox="0 0 24 24" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="4" width="20" height="16" rx="2"/><path d="m22 7-10 6L2 7"/></svg>
 							</a>
 						</li>
-						
-						<li class="list-inline-item">
-							<a href="https://www.linkedin.com/in/kenjamessmith/">
-								<span class="fa-stack fa-2x" title="LinkedIn" >
-									<i class="fa fa-circle fa-stack-2x"></i>
-									<i class="fa fa-linkedin fa-stack-1x fa-inverse"></i>
-								</span>
-							</a>
-						</li>
-
-						<li class="list-inline-item">
-							<a href="mailto:kensmith.py@gmail.com">
-								<span class="fa-stack fa-2x" title="Email" >
-									<i class="fa fa-circle fa-stack-2x"></i>
-									<i class="fa fa-envelope-o fa-stack-1x fa-inverse"></i>
-								</span>
+						<li>
+							<a class="socials__alien" href="https://kennethjsmith.github.io/ikebana/" aria-label="Play Ikebana" title="Play!">
+								<img src="assets/goop.gif" alt="" width="36" height="36">
 							</a>
 						</li>
 					</ul>
 				</div>
-			</nav>
-		</header>
-
-		<!-- Main -->
-		<div class="wrapper">
-			<div class="main">
-				<div class="textbody">
-					<h1>Software Engineer</h1>
-					<h2>Ken Smith</h2>
-					<h3>Los Angeles, CA // Worldwide</h3>
-				</div>
-				<!-- <div>
-					<img src="assets\under_construction1.jpg" style="width:50%"/>
-				</div> -->
-				<div class="headshot">
-					<img class="circular_image" src="assets/IMG_1853.jpg" style="width:50%"/>
-				</div>
 			</div>
-		</div>
+		</section>
 
-		<!-- Footer -->
-		<footer class="text-center text-white mt-auto" style="background-color: #f1f1f1;">
-			<!-- Copyright -->
-			<div class="text-center text-dark p-3" style="background-color: rgba(0, 0, 0, 0.2);">
-				Ken Smith 2022 ©
+		<!-- About -->
+		<section id="about" class="section">
+			<h2>About</h2>
+			<div class="about">
+				<div class="about__text">
+					<p>
+						I'm a software engineer in Los Angeles. I studied Computer Science &amp; Systems
+						at the University of Washington Tacoma, graduating summa cum laude in 2022 with a
+						minor in mathematics.
+					</p>
+					<p>
+						Away from the keyboard you'll find me fencing épée or scuba diving.
+						Here are some manta rays I met on a dive.
+					</p>
+				</div>
+				<video class="about__video" controls preload="none" playsinline poster="assets/mantas-poster.jpg" src="assets/mantas.mp4">
+					Your browser doesn't support HTML5 video.
+				</video>
 			</div>
-		</footer>
+		</section>
 
-	</body>
+		<!-- Projects -->
+		<section id="projects" class="section">
+			<h2>Projects</h2>
+			<div class="cards">
+				<a class="card card--link" href="https://kennethjsmith.github.io/ikebana/">
+					<img class="card__icon" src="assets/goop.gif" alt="" width="48" height="48">
+					<h3>Ikebana</h3>
+					<p>A top-down roguelike for the browser, co-developed in JavaScript. It won awards in our cohort. I worked on collisions, performance and a lot of the art.</p>
+					<ul class="tags"><li>JavaScript</li><li>Canvas</li><li>Game dev</li></ul>
+					<span class="card__cta">Play it →</span>
+				</a>
+				<article class="card">
+					<h3>PKMN DB</h3>
+					<p>A registry site for hobbyists, built on a MySQL schema I designed. It ran on Node and Express on Heroku, with the database on Azure.</p>
+					<ul class="tags"><li>Node.js</li><li>Express</li><li>MySQL</li><li>Azure</li></ul>
+				</article>
+				<article class="card">
+					<h3>User Profiling with Social Media Data</h3>
+					<p>An ensemble deep-learning model that combined image, text and relational signals to classify users, reaching 88% accuracy.</p>
+					<ul class="tags"><li>Python</li><li>TensorFlow</li><li>Keras</li></ul>
+				</article>
+			</div>
+			<p class="more">More on <a href="https://github.com/kennethjsmith">GitHub</a> and <a href="https://portfolium.com/kenjamessmith">Portfolium</a>.</p>
+		</section>
+
+	</main>
+
+	<footer class="footer">
+		<p>© <span id="year">2026</span> Ken Smith</p>
+	</footer>
+
+	<script>document.getElementById('year').textContent = new Date().getFullYear();</script>
+</body>
 </html>

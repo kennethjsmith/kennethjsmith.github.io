@@ -1,5 +1,3 @@
-Designed by Ken Smith
+Ken Smith, personal site: https://kennethjsmith.github.io
 
-Credits:
-	Icons:
-		Font Awesome (fontawesome.io)
+Plain HTML + CSS, no build step. Hosted on GitHub Pages.
